@@ -31,3 +31,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Use rake task for asset building
 gem "rake"
+
+# Use tale theme
+gem "tale"
