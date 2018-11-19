@@ -136,32 +136,32 @@ print("yhat_prime: ", "\n", yhat_prime, "\n")
 plt.show()
 ```
 
-    theta0:  
-     29.999999999999996 
-    
-    rotation matrix:  
-     [[ 0.8660254 -0.5      ]
-     [ 0.5        0.8660254]] 
-    
-    origin:  
-     [0 0] 
-    
-    xhat:  
-     [1 0] 
-    
-    yhat:  
-     [0 1] 
-    
-    origin_prime:  
-     [0 0] 
-    
-    xhat_prime:  
-     [0.8660254 0.5      ] 
-    
-    yhat_prime:  
-     [-0.5        0.8660254] 
-    
+```python
+theta0:  
+ 29.999999999999996 
 
+rotation matrix:  
+ [[ 0.8660254 -0.5      ]
+ [ 0.5        0.8660254]] 
+
+origin:  
+ [0 0] 
+
+xhat:  
+ [1 0] 
+
+yhat:  
+ [0 1] 
+
+origin_prime:  
+ [0 0] 
+
+xhat_prime:  
+ [0.8660254 0.5      ] 
+
+yhat_prime:  
+ [-0.5        0.8660254] 
+ ```
 
 
 ![png](../assets/2DTransformations%20%281%29_4_1.png)
@@ -232,34 +232,34 @@ print("xhat_prime: ", "\n", xhat + translation, "\n")
 print("yhat_prime: ", "\n", yhat + translation, "\n")
 
 plt.show()
+```
+
 ```python
 
-    theta0:  
-     29.999999999999996 
-    
-    translation vector:  
-     [0.8660254 0.5      ] 
-    
-    origin:  
-     [0 0] 
-    
-    xhat:  
-     [1 0] 
-    
-    yhat:  
-     [0 1] 
-    
-    origin_prime:  
-     [0.8660254 0.5      ] 
-    
-    xhat_prime:  
-     [1.8660254 0.5      ] 
-    
-    yhat_prime:  
-     [0.8660254 1.5      ] 
-    
+theta0:  
+ 29.999999999999996 
 
+translation vector:  
+ [0.8660254 0.5      ] 
 
+origin:  
+ [0 0] 
+
+xhat:  
+ [1 0] 
+
+yhat:  
+ [0 1] 
+
+origin_prime:  
+ [0.8660254 0.5      ] 
+
+xhat_prime:  
+ [1.8660254 0.5      ] 
+
+yhat_prime:  
+ [0.8660254 1.5      ] 
+ ```
 
 ![png](../assets/2DTransformations%20%281%29_6_1.png)
 
@@ -346,32 +346,30 @@ plt.show()
 ```
 ```python
 
-    theta0:  
-     29.999999999999996 
-    
-    translation vector:  
-     [0.8660254 0.5      ] 
-    
-    origin:  
-     [0 0] 
-    
-    xhat:  
-     [1 0] 
-    
-    yhat:  
-     [0 1] 
-    
-    origin_prime:  
-     [0.8660254 0.5      ] 
-    
-    xhat_prime:  
-     [1.8660254 0.5      ] 
-    
-    yhat_prime:  
-     [0.8660254 1.5      ] 
-    
+theta0:  
+ 29.999999999999996 
 
+translation vector:  
+ [0.8660254 0.5      ] 
 
+origin:  
+ [0 0] 
+
+xhat:  
+ [1 0] 
+
+yhat:  
+ [0 1] 
+
+origin_prime:  
+ [0.8660254 0.5      ] 
+
+xhat_prime:  
+ [1.8660254 0.5      ] 
+
+yhat_prime:  
+ [0.8660254 1.5      ] 
+ ```
 
 ![png](../assets/2DTransformations%20%281%29_8_1.png)
 
